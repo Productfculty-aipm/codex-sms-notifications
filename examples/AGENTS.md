@@ -22,7 +22,7 @@ Prepare a private packet outside the repository:
 ~~~json
 {
   "id": "stable-task-request-id",
-  "to": "\${SMS_SELF_NUMBER}",
+  "to": "${SMS_SELF_NUMBER}",
   "body": "The requested task is complete and verified.",
   "authorization": "self-text-request"
 }
