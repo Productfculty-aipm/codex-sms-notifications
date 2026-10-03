@@ -96,8 +96,8 @@ The client should accept a private packet such as:
 Then run a command equivalent to:
 
 ~~~bash
-python3 scripts/sms_reminders.py send \\
-  --packet /absolute/path/to/private/message.json \\
+python3 scripts/sms_reminders.py send \
+  --packet /absolute/path/to/private/message.json \
   --authorized
 ~~~
 
@@ -119,8 +119,8 @@ A robust client should:
 Twilio message scheduling requires a Messaging Service and a fixed SendAt time. It is useful when the reminder belongs in Twilio’s cloud after the local task has submitted it.
 
 ~~~bash
-python3 scripts/sms_reminders.py schedule \\
-  --packet /absolute/path/to/private/reminder.json \\
+python3 scripts/sms_reminders.py schedule \
+  --packet /absolute/path/to/private/reminder.json \
   --authorized
 ~~~
 
