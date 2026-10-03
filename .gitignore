@@ -1,0 +1,24 @@
+# Local credentials and private SMS packets
+.codex/
+.twilio/
+.env
+.env.*
+*.secret
+*.secrets
+
+# Private request packets and provider receipts
+sms-packets/
+private-messages/
+receipts/
+journal/
+*.receipt.json
+*.message.json
+
+# Python local state
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
